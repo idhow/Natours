@@ -1,7 +1,5 @@
 .row {
   width: $grid-width;
-  background-color: #eee;
-  // center block elements inside of another block element
   margin: 0 auto; 
 
   &:not(:last-child){
@@ -12,8 +10,6 @@
 
   // ^ -> select class start with || * -> contain || $ -> end with
   [class^="col-"] {
-    background-color: orange;
-    padding: 1.2rem 0;
     float: left;
 
     &:not(:last-child) {
