@@ -1,4 +1,7 @@
 .navigation {
+  * {
+    cursor: pointer;
+  }
 
   &__checkbox {
     display: none;
@@ -117,6 +120,7 @@
   &__icon {
     position: relative;
     margin-top: 3.5rem;
+    cursor: pointer;
 
     &,
     &::before,
